@@ -1,0 +1,6 @@
+# Port d'écoute
+server.port=9999
+ 
+# Configuration de actuator
+management.endpoints.web.exposure.include=*
+management.endpoint.health.show-details=always
